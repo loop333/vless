@@ -36,6 +36,6 @@ jobs:
 #        message: "Update"
 #        add: "."
 #        pull: "NO-PULL"
-        push: true
-      env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+#        push: true
+#      env:
+#        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
