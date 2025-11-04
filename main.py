@@ -9,3 +9,4 @@ with open('servers.txt', 'w') as fout:
         if not line.startswith('vless'):
             continue 
         fout.write(line + '\n')
+        break
